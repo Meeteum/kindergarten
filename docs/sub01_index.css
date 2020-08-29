@@ -1,0 +1,98 @@
+/*유치원 소개와 관련된 visual 이미지 및 문구가 들어가는 곳 */
+.sub_visual_img{background-image: url(img_sub/img_sub%2001.png); background-position: top; background-repeat: no-repeat; width: 1920px; height: 450px;}
+.sub_visual_name{text-align: center; padding-top: 210px; padding-left: 90px; 
+font-size: 45px; color: #333;font-weight: bold;}
+
+.sub_01_box{display: flex; width: 1200px; height: 100px; justify-content: space-between; margin: auto; font-size: 25px; padding-right: 100px;
+ padding-left: 100px; padding-top: 10px;}
+
+.sub_01_flex{ cursor: pointer;}
+
+.sub_01_box_wrap{width: 1920px; height: 100px; background-color: white; box-shadow: #999 1px 0.5px 5px 0px; margin-top: -10px; color:#999}
+
+/* 소메뉴바 hover 코드 /  도도님이 css 수정내역 */
+.sub_99cc66:hover{ 
+cursor: pointer; 
+position: relative; 
+justify-content: center;
+background: linear-gradient(transparent 70%, #99cc66 30%);
+color: #333;
+
+}
+
+.sub_99cc66_01{
+padding-top:20px;
+font-size:10pt;
+color:#999} 
+
+
+/* 원훈과 관련된 콘텐츠 css 내용 입력 내역*/
+.text_line{margin-top: 100px;}
+.sub_contents_00{text-align: center; font-size: 28px; color: #666; margin-top: -10px;}
+
+
+/* 원장의 경영관과 관련되어 css 내용 입력 */
+.text_line02{width:250px; 
+height: 20px; background-color: #ff9933; position: relative; line-height: -0; color: #333; }
+.sub_contents_01{text-align:center; font-size: 28px; color: #666; margin-top: -20px;}
+
+/* 원장의 경영관 아래에 들어가는 이미지들 */
+.sub01_img_wrap_wrap{display: flex; width: 1300px; justify-content: space-between; margin: auto; margin-top: 60px;}
+.sub01_img01{background-image: url(img_sub/sub_contents_01.png); width: 400px;
+height: 400px;}
+.sub01_img02{background-image: url(img_sub/sub_contents_02.png); width: 400px;
+height: 400px;}
+.sub01_img03{background-image: url(img_sub/sub_contents_03.png); width: 400px;
+ height: 400px;}
+ 
+
+ /*원장의 경영관 아래에 들어가는 이미지 p태그 hover 입력*/
+/*.sub_01_hover{ width: 400px; height: 160px; background-color: black; z-index: 1;
+opacity: 0.7; color: white; text-align: center; 
+font-size:20px; margin-top: 125px; padding-top: 25px; cursor: pointer;
+position: relative;
+transition-duration: 2s;
+transition-timing-function: ease-out;
+
+}*/
+
+
+/*  과자님이 적어주신 호버시 효과 */
+.blockSt {
+  width: 400px;
+  height: 160px;
+  background-color: black;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  opacity: 0.7;
+  margin-top: 130px;
+  cursor: pointer;
+  color: white;
+  padding-top: 20px
+ 
+}
+
+
+/* 유아상 교사상 학부모상 */ 
+.sub01_text_wrap{display: flex; width: 1200px; margin: auto; justify-content: space-between; margin-top: 10px;}
+.sub01_text1{text-align: center; width: 300px; font-size: 25px; color: #666;}
+
+
+/* 교육 목표와 관련된 이미지 4가지 요소 display:flex; 적용 */
+.education_img_banner{display: flex; width: 1400px; margin: auto; justify-content: space-between; margin-top: 30px;}
+
+/* 교육목표를 실현하기 위한 노력 중점 콘텐츠 css 내용 */
+
+
+.sub02_wrap{display: flex; margin-top: 100px; width: 1200px; margin: auto; padding-top: 150px; padding-bottom: 150px;}
+
+.text_line03{width:250px; 
+height: 20px; background-color: #3385d6; position: relative; line-height: -0; color: #333; }
+.text_line03{font-size: 35px; width: 550px;}
+.sub_contents_02{margin-top: 20px; text-align: left; color: #666; font-size: 25px; font-weight: 400;}
+.sub02_contents02{margin-left: 50px;}
+
+
+/*banner margin 값 조절 */
+.sub02_banner{margin-bottom: 100px;}

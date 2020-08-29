@@ -1,0 +1,281 @@
+{border: 1px solid red;}
+*{font-family: 'Noto Sans KR', sans-serif;}
+.wrap{width: 1920px; margin: auto;}
+
+/*건국유치원 메뉴 관련 css 내용*/
+.nav_01{display: flex; justify-content:flex-end; margin-right: 140px;}
+.small_nav{padding-right: 10px;
+color: #666;}
+
+.nav_wrap{display: flex; width: 1920px; margin-top: -10px}
+.nav_wrap h1{width: 500px; text-align: center; margin: 0; 
+line-height: 1;}
+
+
+
+/* 건국 유치원 메뉴구성 css 내용 */
+.nav_02 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 450px;
+  
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #666 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+ 
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color:#333;
+  font-weight: bold;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #666;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #99cc66;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* 건국유치원 main content 백으로 이미지 화면 css 내용 */
+
+.main01_content_img{background-image: url(img/main_img.png);
+background-size: 1920px; height: 900px; background-repeat: no-repeat; margin-top: 12px; z-index: -1; 
+width: 1920px; background-position: top; margin-right: 10px}
+
+.main_content_text{z-index: 1; padding-top: 250px; 
+ padding-left: 1260px;}
+
+.content_text .content_01{font-size: 30px; color: #333333;}
+.content_text .content_02{font-size: 50px; font-weight: bold;
+color: #333333;}
+.content_text02{font-size: 20px; color: #666666}
+
+.content_box_color{width: 240px; border: 1px solid; padding: 10px;
+padding-left: 20px; background-color: white; opacity: 0.6;
+font-size: 16px; color: black;}
+
+.content_box_color:hover{background-color: #ff9933; opacity: 1;
+color: white; cursor: pointer;}
+
+
+/* 건국유치원 main content 화면이 들어가는 css 입력 */
+
+.content_box{margin: auto; display: flex; flex(3);width: 1200px;}
+.box01{background-color: #ff9933; width: 400px;margin-right: 30px; color: white; height: 200px; }
+
+.right_{display: flex; justify-content: flex-end; width: 350px;
+font-size: 45px; margin: 0; padding: 0;}
+
+.middle_{text-align: center; font-size: 20px; margin-top: -50px}
+.text_6{font-size: 45px;}
+.box01_text{text-align: center;font-size: 20px; margin-top: -30px}
+.text_06-05{font-size: 20px;}
+
+
+/* 공지사항 관련 css */
+.box02{width: 400px;  color: #333;
+line-height: 1.65;}
+.box02_wrap{display: flex; flex-direction: row;}
+.box02_wrap p{font-size: 40px; margin-top: 0; margin-bottom: 0;}
+.box02_wrap02{display: flex; font-size: 17px;}
+.box02_text02{color: #666; margin-left: 10px}
+.right02{margin-left: 200px;}
+
+/* 가정통신 관련 css*/
+.box03{width: 400px; color: #333;
+line-height: 1.65;}
+.box03_wrap{display: flex; flex-direction: row;}
+.box03_wrap p{font-size: 40px; margin-top: 0; margin-bottom: 0;}
+.right01{margin-left: 175px;}
+.box03_wrap02{display: flex; font-size: 17px;}
+.box03_text02{color: #666; margin-left: 10px;}
+
+/*건국유치원 학급마당과 popup zone 들어가는 곳 작업 */
+.content_box02{display: flex; 
+width: 1200px; margin: auto; margin-top: 10px;
+}
+
+.box04{margin-right: 25px;}
+
+/*학급마당 관련 css */
+
+.box04_wrap{display: flex; flex-direction: row;}
+.box04_wrap p{font-size: 40px; margin-top: 0; margin-bottom: 0;
+margin-left: 20px;}
+.right_01{padding-left: 170px;}
+
+
+.box04_img{ margin-top: 10px;
+ background-image: url(img/main_sub01.png); width: 400px;
+ height: 476px;
+ 
+}
+
+.box04_wrap_01{display: flex; justify-content: space-between; width: 350px;margin-left: 25px; margin-bottom: -10px;}
+.box04_wrap_01 p{width: 100px; text-align: center;
+background-color:  #99cc66; padding: 10px; margin-right: 10px;}
+
+.box04_wrap_02{display: flex; justify-content: space-between; width: 350px;margin-left: 25px; margin-bottom: -10px;}
+.box04_wrap_02 p{width: 100px; text-align: center;
+background-color:  #99cc66; padding: 10px; margin-right: 10px;}
+
+
+.box04_wrap_03{display: flex; justify-content: space-between; width: 350px;margin-left: 25px}
+.box04_wrap_03 p{width: 90px; text-align: center;
+background-color:  #99cc66; padding: 10px;}
+
+.box04_wrap_01 p:hover{cursor: pointer; background-color: white;
+border: 3px solid  #99cc66;}
+
+.box04_wrap_02 p:hover{cursor: pointer; background-color: white;
+border: 3px solid  #99cc66;}
+
+.box04_wrap_03 p:hover{cursor: pointer; background-color: white;
+border: 3px solid  #99cc66;}
+
+/*건국유치원 popup zone css 작업내역*/
+.box05_wrap_wrap{margin-bottom: 50px;}
+
+.box05_wrap{display: flex; flex-direction: row;}
+.box05_wrap p{font-size: 40px; margin-top: 0; margin-bottom: 0;
+}
+.rigtht_02{margin-left: 520px;}
+.video_box{margin-top: 10px;}
+
+/* popup zone css에서 banner_box 작업 */
+.banner_box{border: 1px solid #666; width:auto; height: 60px;
+display: flex; margin-top: 10px; }
+.banner_text{width: 640px; justify-content: center; padding-left: 20px; font-size: 18px;}
+.banner_icon_wrap{display: flex;justify-content: space-between; width: 100px; margin: 0; padding: 0;}
+
+/*건국유치원 main content '멋진 우리들' css 입력 */
+
+.box_06{margin-top: 100px;}
+.text_line{text-align: center; font-size: 40px; display: flex;justify-content: center; position: relative;}
+.text_line01{width:250px; 
+height: 20px; background-color: #ff9933; position: relative; line-height: -0; }
+.box06_wrap{display: flex; margin-top: -40px;
+font-size: 25px;}
+.sum_name{margin: auto; padding-left: 500px;}
+
+.box06_wrap_wrap{display: flex;width: 100px;  justify-content: space-between; margin-right: 360px}
+
+/* 건국유치원 main content '멋진 우리들' 사진 부분 css 입력  */
+
+.box_06_imgbox{ margin-top: 20px; display: flex; width: 1250px;
+justify-content: space-between; margin:auto;}
+
+.banner_img{margin-top: 150px; margin-bottom: 100px;}
+
+/*footer 영역 css 입력*/
+
+hr{ 2px; color: #666;margin-bottom: 30px; opacity: 0.3}
+.footer_wrap{display: flex; width: 1920px; margin-bottom: 30px;}
+.logo {width: 500px; text-align: center; margin: 0;}
+.logo img{padding-top: 40px}
+
+.text_box_wrap{width: 1400px;}
+.text_08{font-size: 20px; font-weight: bold #666;}
+.text_09{font-size: 18px; color: #666;}
+
+/*span 태그 색상 바꾸기 */
+.hover_b{color:#0066cc; cursor: pointer;}
+
+.hover_f{color:#ff6699; cursor: pointer;}
+
+.hover_g{ color:#99cc66; cursor: pointer;}
+
+
+
+/* 모달창 css 입력 내역 */
+
+  
+  .modal{
+  	
+   position: fixed;/* 포지션을 absolute -> fixed 변경!
+   왜냐면 스크롤해도 그대로 그 자리에 고정되어 있기 때문이다 */ 
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .modal_overlay{
+   opacity: 0.6;
+   background-color:black;
+   width: 100%;
+   height:100%;
+   position: absolute;
+   
+  }
+  
+  .modal_content{
+   background-color: white;
+   padding:100px 100px;
+   text-align: center;
+   position: fixed;
+   top: 0px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   border-radius: 10px;
+   position: relative;
+   width: 60%;
+   
+  }
+  
+  
+  .banner_text02{
+   font-size: 30px;
+   margin: 0;
+  
+  }
+ 
+  
+  .hidden{
+   display: none;
+  }
+
+.modal_button{
+ background-color: white;
+ border: hidden;
+ display: block;
+ float: right;
+ margin-top: -130px
+ 
+}

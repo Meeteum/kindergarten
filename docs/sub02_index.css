@@ -1,0 +1,82 @@
+/*알림마당과 관련된 visual 이미지 및 문구가 들어가는 곳 */
+.sub_visual_img{background-image: url(img_sub02/sub02_visual%20img.png); background-position: top; background-repeat: no-repeat; width: 1920px; height: 450px;}
+.sub_visual_name{text-align: center; padding-top: 210px; padding-left: 90px; 
+font-size: 45px; color: #333;font-weight: bold;}
+
+.sub_01_box{display: flex; width: 1200px; height: 100px; justify-content: space-between; margin: auto; font-size: 25px; padding-right: 100px;
+ padding-left: 100px; padding-top: 10px;}
+
+.sub_01_flex{ cursor: pointer;}
+
+.sub_01_box_wrap{width: 1920px; height: 100px; background-color: white; box-shadow: #999 1px 0.5px 5px 0px; margin-top: -10px; color:#999}
+
+/* 소메뉴바 hover 코드 /  도도님이 css 수정내역 */
+.sub_99cc66:hover{ 
+cursor: pointer; 
+position: relative; 
+justify-content: center;
+background: linear-gradient(transparent 70%, #99cc66 30%);
+color: #333;
+
+}
+
+.sub_99cc66_01{
+padding-top:20px;
+font-size:10pt;
+color:#999} 
+
+
+/* grid 레이아웃을 활용하여 css 화면 만들기 */
+
+
+
+.grid_wrap{display: grid; justify-content: center;
+grid-template-columns: 430px 430px 430px;
+grid-template-rows: 480px 480px 480px;
+margin-bottom: 60px;}
+
+.grid_01_text{ font-size: 23px; margin-top: 0px; color: #666;}
+.grid_01_img{margin-bottom: 5px; cursor: pointer;}
+
+
+/* flex로 하단 메뉴 정립 */
+.flex_wrap{display: flex; justify-content: space-between; width: 900px; margin: auto;
+padding-bottom: 50px; font-size: 20px;}
+.sub02_banner{margin-bottom: 50px;}
+
+
+.number{color:#888;}
+
+/*number 번호 hover 시 들어가는 효과 정립 */
+.number:hover{ 
+cursor: pointer; 
+position: relative; 
+justify-content: center;
+background: linear-gradient(transparent 70%, #99cc66 30%);
+color: #333;
+
+}
+
+.btn{background-color: #ff9933; font-size: 25px; color: white; 
+font-weight: 300; border-style: hidden; width: 160px;
+cursor: pointer;}
+
+/*메뉴바가 들어가는 곳 */
+.goal_menu{display: flex; justify-content: center; margin-top: 100px;
+margin-bottom: 100px;}
+select{width: 390px; height: 90px;font-size: 30px; 
+padding-left: 150px; color:#99cc66; border-bottom: hidden;
+ border-left: hidden;  border-top: hidden; border-right: 3px solid #99cc66;
+ -webkit-appearance: none; /* 네이티브 외형 감추기 */ 
+    -moz-appearance: none; 
+    appearance: none;
+     background: url(img_sub02/sub02_btn02.png) no-repeat 95% 50%; /* 화살표 모양의 이미지 */ 
+ 
+ 
+}
+input{width: 740px; height: 65px; border: 3px solid white; }
+.img_btn{background-color: white; border: hidden; width: 100px;}
+form{border: 3px solid #99cc66;width: 1250px;}
+
+
+
